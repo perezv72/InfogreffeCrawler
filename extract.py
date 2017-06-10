@@ -10,7 +10,7 @@ from collections import OrderedDict
 OUT = open('stores.txt','w')
 CSV = csv.writer(open('stores.csv','w'))
 ERR = open('stores.err', 'w')
-print "Writing to output file 'stores.txt'"
+print(Writing to output file 'stores.txt')
 
 def output(store):
     for field, value in store.items():
